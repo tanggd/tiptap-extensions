@@ -1,3 +1,5 @@
 # tiptap-extensions
 
-extensions for tiptap
+tiptap编辑器扩展
+
+
