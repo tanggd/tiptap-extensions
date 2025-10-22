@@ -1,6 +1,6 @@
 const Page = () => {
     return (
-        <div>test</div>
+        <div>编辑器</div>
     );
 };
 
