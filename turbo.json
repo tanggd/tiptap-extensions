@@ -3,12 +3,16 @@
   "ui": "tui",
   "tasks": {
     "build": {
+      "inputs": ["src/**", "tsup.config.ts", "../../tsconfig.json", "../../tsconfig.build.json", "package.json"],
+      "dependsOn": ["^build"],
       "outputs": ["dist/**"]
     },
     "dev": {
       "persistent": true,
       "cache": false
     },
-    "lint": {}
+    "lint": {
+      "inputs": ["src/**", "../../.eslintrc.js"]
+    }
   }
 }
