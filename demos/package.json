@@ -9,9 +9,8 @@
     "preview": "vite preview",
     "ts": "tsc --project tsconfig.json --noEmit"
   },
-  "dependencies": {
-  },
   "devDependencies": {
+    "@ant-design/v5-patch-for-react-19": "^1.0.3",
     "@types/node": "22.10.3",
     "@vitejs/plugin-react": "^1.3.2",
     "@vitejs/plugin-vue": "^5.2.1",
